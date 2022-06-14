@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "harbour": "cd $dir && env.bat && harbour $fileName && xhbmk2 $fileNameWithoutExt.c -o.\\build\\release\\$fileNameWithoutExt -run" ,
+    },
+}
