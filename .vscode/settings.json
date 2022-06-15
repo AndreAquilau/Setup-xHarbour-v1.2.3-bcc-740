@@ -1,5 +1,6 @@
 {
     "code-runner.executorMap": {
-        "harbour": "cd $dir && .\\compiler\\env.bat && harbour $fileName && xhbmk2 $fileNameWithoutExt.c -o.\\build\\release\\$fileNameWithoutExt -run" ,
+        "harbour": ".\\compiler\\env.bat && harbour program.prg && xhbmk2 program.c -o.\\build\\release\\program && start .\\build\\release\\program.exe" ,
     },
+    "harbour.compilerExecutable": "C:\\Development\\Setup-xHarbour-v1.2.3-bcc-740\\compiler\\xharbour\\bin\\harbour"
 }

@@ -1,0 +1,10 @@
+FUNCTION TampDate() 
+    LOCAL tampDt := Date()
+RETURN tampDt
+
+FUNCTION Num1() 
+RETURN 10
+
+FUNCTION Num2()
+RETURN 20
+
