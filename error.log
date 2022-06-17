@@ -1,14 +1,14 @@
 ----------------------------- xHarbour Error Log ------------------------------
 
-Date...............: 06/15/22
-Time...............: 16:42:06
+Date...............: 06/16/22
+Time...............: 21:26:38
 
-Application name...: c:\Development\Setup-xHarbour-v1.2.3-bcc-740\build\release\program.exe
-Workstation name...: DESK-00129
+Application name...: f:\Development\projetos\Introducao\build\release\program.exe
+Workstation name...: DEX
 Available memory...: 2097151
-Current disk.......: C
-Current directory..: Development\Setup-xHarbour-v1.2.3-bcc-740
-Free disk space....: 914403831808
+Current disk.......: F
+Current directory..: Development\projetos\Introducao
+Free disk space....: 997269921792
 
 Operating system...: Windows 8 6.2.9200
 xHarbour version...: xHarbour 1.2.3 Intl. (SimpLex) (Build 20201212)
@@ -98,67 +98,68 @@ SET WRAP...........: OFF
 ---------------------------------------- Internal Error Handling Information  -----------------------------------------
 
 Subsystem Call ....: BASE
-System Code .......: 1003
+System Code .......: 1081
 Default Status ....: .F.
-Description .......: Variable does not exist
-Operation .........: LOGAPP
-Arguments .........: 
+Description .......: Argument error
+Operation .........: +
+Arguments .........:  [ 1] = Type: C Val: Selecionado:  [ 2] = Type: N Val:          0
 Involved File .....: 
 Dos Error Code ....: 0
 
  Trace Through:
 ----------------
-MAIN                  :      47 in Module: program.prg
+OPERACOESBASICAS      :      15 in Module: program.prg
+MAIN                  :      55 in Module: program.prg
 
 
 ################################################## Video Screen Dump ##################################################
 
 +------------------------------------------------------------------------------------------------------------------------+
+|Operacoes Basicas                                                                                                       |
+|1 - SOMAR                                                                                                               |
+|2 - SUBTRACAO                                                                                                           |
+|3 - MULTIPLICACAO                                                                                                       |
+|4 - DIVISAO                                                                                                             |
+|5 - SAIR\n                                                                                                              |
+|Error BASE/1081  Argument error: + Arguments: ( [ 1] = Type: C Val: Selecionado:  [ 2] = Type: N Val:          0)       |
 |                                                                                                                        |
-|LOJAO MONTE CARLO                                                                                                       |
-|PEDIDO DE VENDA                                                                                                         |
-|================================================                                                                        |
-|ITEM         QTD     VAL                   TOTAL                                                                        |
-|------------ ----- ------- ---------------------                                                                        |
-|CAMISA GOLA   3     10,00                  30,00                                                                        |
-|LANTERNA FLA  5     50,00                 250,00                                                                        |
-|                                 ===============                                                                        |
-|                                          280,00                                                                        |
+|Error at ...: OPERACOESBASICAS(15) in Module: program.prg                                                               |
+|Called from : MAIN(55) in Module: program.prg                                                                           |
 |                                                                                                                        |
-|DEUS E FIEL                                                                                                             |
 |                                                                                                                        |
-|Que horas ? 16:42:04                                                                                                    |
-|Linha 1                                                                                                                 |
-|Linha 2                                                                                                                 |
-|Linha 3                                                                                                                 |
-|Tela algo para iniciar a 'Baixa' dos documentos                                                                         |
-|Windows 8 6.2.9200                                                                                                      |
 |                                                                                                                        |
-|         1.00                                                                                                           |
-|         1.41                                                                                                           |
-|         1.73                                                                                                           |
-|         2.00                                                                                                           |
-|         2.24                                                                                                           |
-|         2.45                                                                                                           |
-|         2.65                                                                                                           |
-|         2.83                                                                                                           |
-|         3.00                                                                                                           |
-|         3.16                                                                                                           |
 |                                                                                                                        |
-|     10000                                                                                                              |
-|FFFFFF                                                                                                                  |
-|         3.141516                                                                                                       |
-|1.0.0                                                                                                                   |
 |                                                                                                                        |
-|FFFFFF                                                                                                                  |
-|FF0000                                                                                                                  |
-|FFFF00                                                                                                                  |
-|0000FF                                                                                                                  |
 |                                                                                                                        |
-|        75.2                                                                                                            |
-|Error BASE/1003  Variable does not exist: LOGAPP                                                                        |
 |                                                                                                                        |
-|Error at ...: MAIN(47) in Module: program.prg                                                                           |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
 |                                                                                                                        |
 |                                                                                                                        |
 |                                                                                                                        |
