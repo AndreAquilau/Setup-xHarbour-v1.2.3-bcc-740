@@ -1,14 +1,14 @@
 ----------------------------- xHarbour Error Log ------------------------------
 
-Date...............: 06/16/22
-Time...............: 21:26:38
+Date...............: 06/17/22
+Time...............: 10:03:58
 
-Application name...: f:\Development\projetos\Introducao\build\release\program.exe
-Workstation name...: DEX
+Application name...: c:\Development\Setup-xHarbour-v1.2.3-bcc-740\build\release\program.exe
+Workstation name...: DESK-00129
 Available memory...: 2097151
-Current disk.......: F
-Current directory..: Development\projetos\Introducao
-Free disk space....: 997269921792
+Current disk.......: C
+Current directory..: Development\Setup-xHarbour-v1.2.3-bcc-740
+Free disk space....: 914754494464
 
 Operating system...: Windows 8 6.2.9200
 xHarbour version...: xHarbour 1.2.3 Intl. (SimpLex) (Build 20201212)
@@ -102,29 +102,29 @@ System Code .......: 1081
 Default Status ....: .F.
 Description .......: Argument error
 Operation .........: +
-Arguments .........:  [ 1] = Type: C Val: Selecionado:  [ 2] = Type: N Val:          0
+Arguments .........:  [ 1] = Type: U [ 2] = Type: U
 Involved File .....: 
 Dos Error Code ....: 0
 
  Trace Through:
 ----------------
-OPERACOESBASICAS      :      15 in Module: program.prg
-MAIN                  :      55 in Module: program.prg
+EXERCICIO10           :       3 in Module: program.prg
+MAIN                  :      76 in Module: program.prg
 
 
 ################################################## Video Screen Dump ##################################################
 
 +------------------------------------------------------------------------------------------------------------------------+
-|Operacoes Basicas                                                                                                       |
-|1 - SOMAR                                                                                                               |
-|2 - SUBTRACAO                                                                                                           |
-|3 - MULTIPLICACAO                                                                                                       |
-|4 - DIVISAO                                                                                                             |
-|5 - SAIR\n                                                                                                              |
-|Error BASE/1081  Argument error: + Arguments: ( [ 1] = Type: C Val: Selecionado:  [ 2] = Type: N Val:          0)       |
 |                                                                                                                        |
-|Error at ...: OPERACOESBASICAS(15) in Module: program.prg                                                               |
-|Called from : MAIN(55) in Module: program.prg                                                                           |
+|Error BASE/1081  Argument error: + Arguments: ( [ 1] = Type: U [ 2] = Type: U)                                          |
+|                                                                                                                        |
+|Error at ...: EXERCICIO10(3) in Module: program.prg                                                                     |
+|Called from : MAIN(76) in Module: program.prg                                                                           |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
+|                                                                                                                        |
 |                                                                                                                        |
 |                                                                                                                        |
 |                                                                                                                        |

@@ -1,6 +1,8 @@
 {
     "code-runner.executorMap": {
-        "harbour": "harbour -w3 program.prg && xhbmk2 program.c -o.\\build\\release\\program && start .\\build\\release\\program.exe" ,
+        //"harbour": "harbour -w3 program.prg && xhbmk2 program.c -o.\\build\\release\\program && start .\\build\\release\\program.exe" ,
+        "harbour": ".\\compiler\\env.bat && harbour program.prg && xhbmk2 program.c -o.\\build\\release\\program && start .\\build\\release\\program.exe",
     },
-    "harbour.compilerExecutable": "harbour"
+    //"harbour.compilerExecutable": "harbour"
+    "harbour.compilerExecutable": "C:\\Development\\Setup-xHarbour-v1.2.3-bcc-740\\compiler\\xharbour\\bin\\harbour"
 }
