@@ -27,46 +27,83 @@
 #include "./src/exercicios/exercicio_convertion_ano_mes.prg"
 #include "./src/exercicios/exercicio_convertion_hr_sc.prg"
 #include "./src/exercicios/exercicio_12.prg"
+#include "./src/valores-e-operadores/operadores.prg"
+#include "./src/leangth.prg"
+#include "./src/date_time/ctod_char_to_date.prg"
+#include "./src/operadores-logicos/operadores_logicos.prg"
+#include "./src/command_store.prg"
+#include "./src/operadores-especiais/operadores_especiais.prg"
+#include "./src/exercicios/exercicio_13.prg"
 
 #define VOLUME 10000
 #define COLOR_WHITE "FFFFFF"
 #define PI_VALUE 3.141516
 
 
-
 PROCEDURE Main
     TRY
         Set(_SET_DATEFORMAT, "yyyy-mm-dd")
+        SET CENTURY ON
+        SET DECIMALS TO 2
 
         // Desafio()
+
         // ?
+
         // Exercicio01()
+
         // Exercicio02()
+
         // Exercicio03()
+
         // Exercicio04()
+
         // ?
+
         // ? CalcRaizQuadrada(1)
+
         // ? CalcRaizQuadrada(2)
+
         // ? CalcRaizQuadrada(3)
+
         // ? CalcRaizQuadrada(4)
+
         // ? CalcRaizQuadrada(5)
+
         // ? CalcRaizQuadrada(6)
+
         // ? CalcRaizQuadrada(7)
+
         // ? CalcRaizQuadrada(8)
+
         // ? CalcRaizQuadrada(9)
+
         // ? CalcRaizQuadrada(10)
+
         // ?
+
         // ? VOLUME
+
         // ? COLOR_WHITE
+
         // ? PI_VALUE
+
         // ? VERSION_APP
+
         // ?
+
         // ? BRANCO
+
         // ? VERMELHO
+
         // ? AMARELO
+
         // ? AZUL
+
         // ?
+
         // ? ConvertionCelsiusToFahrenheit(24)
+
         // Variable()
 
         // Cadastro()
@@ -101,9 +138,23 @@ PROCEDURE Main
 
         // ConvertionAnoMes()
         
-        //ConvertionHoraToSegundos()
+        // ConvertionHoraToSegundos()
 
-        CalcLitrosPorQuilometro()
+        // CalcLitrosPorQuilometro()
+
+        // Operadores()
+
+        // Leangth()
+
+        // CharToDate()
+
+        // OperadoresLogico()
+
+        // CommandStore()
+
+        // OperadoresEspeciais ()
+
+        Exercicio13(20)
         
         InKey(0)
 
