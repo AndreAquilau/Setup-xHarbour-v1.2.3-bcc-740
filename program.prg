@@ -34,6 +34,8 @@
 #include "./src/command_store.prg"
 #include "./src/operadores-especiais/operadores_especiais.prg"
 #include "./src/exercicios/exercicio_13.prg"
+#include "./src/operador_relacional.prg"
+#include "./src/estrutura_de_decisao.prg"
 
 #define VOLUME 10000
 #define COLOR_WHITE "FFFFFF"
@@ -154,7 +156,11 @@ PROCEDURE Main
 
         // OperadoresEspeciais ()
 
-        Exercicio13(20)
+        // Exercicio13(20)
+
+        // OperadoresRelacionais()
+
+        EstruturaDeDecisao()
         
         InKey(0)
 
