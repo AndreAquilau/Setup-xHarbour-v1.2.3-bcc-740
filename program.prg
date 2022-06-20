@@ -36,6 +36,7 @@
 #include "./src/exercicios/exercicio_13.prg"
 #include "./src/operador_relacional.prg"
 #include "./src/estrutura_de_decisao.prg"
+#include "./src/estrutura_de_repeticao.prg"
 
 #define VOLUME 10000
 #define COLOR_WHITE "FFFFFF"
@@ -160,7 +161,9 @@ PROCEDURE Main
 
         // OperadoresRelacionais()
 
-        EstruturaDeDecisao()
+        // EstruturaDeDecisao()
+
+        EstruturaDeRepeticao()
         
         InKey(0)
 
