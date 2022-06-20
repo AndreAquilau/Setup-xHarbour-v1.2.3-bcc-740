@@ -37,6 +37,8 @@
 #include "./src/operador_relacional.prg"
 #include "./src/estrutura_de_decisao.prg"
 #include "./src/estrutura_de_repeticao.prg"
+#include "./src/funcoes.prg"
+#include "./src/interface_texto.prg"
 
 #define VOLUME 10000
 #define COLOR_WHITE "FFFFFF"
@@ -45,10 +47,12 @@
 
 PROCEDURE Main
     TRY
-        Set(_SET_DATEFORMAT, "yyyy-mm-dd")
+        REQUEST HB_LANG_PT
+        hb_langSelect("PT")
         SET CENTURY ON
         SET DECIMALS TO 2
-
+        Set(_SET_DATEFORMAT, "yyyy-mm-dd")
+        
         // Desafio()
 
         // ?
@@ -163,7 +167,11 @@ PROCEDURE Main
 
         // EstruturaDeDecisao()
 
-        EstruturaDeRepeticao()
+        // EstruturaDeRepeticao()
+
+        // Funcoes()
+
+        InterfaceModoTexto()
         
         InKey(0)
 
